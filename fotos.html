@@ -2,10 +2,32 @@
 <html lang="pt-br">
 <head>
    <meta charset="UTF-8"/>
-   <title></title>
+   <title>Tudo sobre Google Glass</title>
+   <link rel="stylesheet" href="_css/estilo.css"/>
 </head>
+<script src="_javascript/funcoes.js"></script>
 <body>
+<div id="interface">
 
+   <header id="cabecalho">
+   <hgroup>
+   <h1>Google Glass</h1>
+   <h2>A revolução do Google está chegando</h2>
+   </hgroup>
+
+   <img id="icone" src="_imagens/fotos.png"/>
+
+   <nav id="menu">
+   <h1>Menu Principal</h1>
+   <ul>
+      <li onmouseover="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="index.html">Home</a></li>
+      <li onmouseover="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="specs.html">Especificações</a></li>
+      <li onmouseover="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fotos.html">Fotos</a></li>
+      <li onmouseover="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="multimidia.html">Multimídia</a></li>
+      <li onmousemove="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/fotos.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+   </ul>
+   </nav>
+   </header>
 Google Glass
 A revolução do Google está chegando
 
@@ -32,8 +54,10 @@ Veja na nossa galeria de fotos várias belas imagens que mostram algumas das pri
 - Vários tipos de lente
 - Informações importantes
 
-Copyright &copy; 2016 - by Jailson Nogueira
-
-Facebook | Twitter
+<footer id="rodape">
+<p>Copyright &copy; 2016 - by Jailson Nogueira <br/>
+<a href="http://facebook.com/jnogueira.91" target="blank"> Facebook</a> | <a href="http://instagram.com/jailsonnogueira" target="blank">Instagram</a></p>
+</footer>
+</div>
 </body>
 </html>
